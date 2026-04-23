@@ -47,5 +47,10 @@ function App() {
     </div>
   );
 }
-
+return (
+  <div style={{ width: '700px', margin: 'auto' }}>
+    <h2>Monthly Sales Report</h2>
+    <Bar data={data} />
+  </div>
+);
 export default App;
